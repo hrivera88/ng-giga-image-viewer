@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-	selector: 'app-tools',
+	selector: 'giga-tools',
 	templateUrl: './tools.component.html',
 	styleUrls: ['./tools.component.scss'],
 })

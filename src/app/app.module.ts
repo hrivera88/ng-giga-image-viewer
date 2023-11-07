@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ToolsComponent } from './tools/tools.component';
+import { ToolsModule } from './tools/tools.module';
 
 @NgModule({
-	declarations: [AppComponent, ToolsComponent],
-	imports: [BrowserModule],
+	declarations: [AppComponent],
+	imports: [BrowserModule, ToolsModule],
 	providers: [],
 	bootstrap: [AppComponent],
 })
